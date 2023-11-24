@@ -1,0 +1,6 @@
+services:
+  dropcord.event_subscriber:
+    class: Drupal\dropcord\EventSubscriber\DropcordSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }

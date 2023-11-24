@@ -1,0 +1,6 @@
+dropcord.settings_form:
+  title: 'Dropcord'
+  description: 'Configure Dropcord.'
+  parent: system.admin_config_system
+  route_name: dropcord.settings_form
+  weight: 10

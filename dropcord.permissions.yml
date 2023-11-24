@@ -1,0 +1,4 @@
+administer dropcord configuration:
+  title: 'Administer dropcord configuration'
+  description: 'Optional description.'
+  restrict access: true

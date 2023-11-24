@@ -1,0 +1,8 @@
+# Schema for the configuration files of the Dropcord module.
+dropcord.settings:
+  type: config_object
+  label: 'Dropcord settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

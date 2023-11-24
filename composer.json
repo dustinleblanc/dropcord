@@ -1,0 +1,34 @@
+{
+    "name": "drupal/dropcord",
+    "description": "Discord Integration for Drupal users",
+        "authors": [
+            {
+                "name": "Dustin LeBlanc",
+                "email": "dustin.m.leblanc@gmail.com",
+                "homepage": "https://www.drupal.org/u/dustinleblanc",
+                "role": "Maintainer"
+            }
+        ],
+        "type": "drupal-module",
+        "license": "GPL-2.0-or-later",
+        "homepage": "https://drupal.org/project/apple_pay_verification",
+        "support": {
+            "issues": "https://drupal.org/project/issues/apple_pay_verification",
+            "source": "https://git.drupalcode.org/project/apple_pay_verification"
+        },
+        "require-dev": {
+            "drupal/coder": "^8.3",
+            "phpro/grumphp-shim": "^2.1"
+        },
+        "scripts": {
+            "lint": "phpcs --ignore=vendor -s . --report-junit=junit.xml --report-full --report-summary --report-source",
+            "fix": "phpcbf --ignore=vendor ."
+        },
+        "config": {
+            "allow-plugins": {
+                "dealerdirect/phpcodesniffer-composer-installer": true,
+                "phpro/grumphp-shim": true
+            }
+        }
+
+}

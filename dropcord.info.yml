@@ -1,0 +1,5 @@
+name: Dropcord
+type: module
+description: Integrates Drupal Users with Discord Servers.
+package: Discord
+core_version_requirement: ^9 || ^10
